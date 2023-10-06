@@ -1,0 +1,247 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    width: 600px;
+    height: 1161px;
+} 
+
+ 
+.head {
+    width: 600px;
+    height: 167px;
+    background-image: url("images/hamburger.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding-left: 46px;
+    margin-bottom: 0px;
+} 
+
+
+
+
+#mealSection .container{
+    margin-top: 0px;
+    padding-top: 30px;
+}
+
+.container {
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 20px;
+    border-bottom: 1px solid #D2D2D2;
+}
+
+.menu {
+    display: flex;
+
+}
+
+.meal-picture {
+    width: 70px;
+    height: 89px;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 78.72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 98.4px; /* 125% */
+    letter-spacing: -1.574px;
+    margin-top: 0px; 
+    margin-right: 50px;   
+}
+
+h2 {
+    color: #000;
+    font-family: Smythe;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.8px; /* 60% */
+}
+
+#addBtn {
+    align-self: flex-start;
+    justify-self:last baseline;
+    border-radius: 50%;
+    border: 1.5px solid #DEDEDE;
+}
+
+.ingredients {
+    color: #8B8B8B;
+    font-family: Smythe;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+
+h3 {
+    color: #000;
+    font-family: Smythe;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 120% */
+}
+
+.orderSummary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.orderTitle {
+    color: #000;
+    font-family: Smythe;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.8px; /* 60% */
+}
+
+
+
+#completeBtn, #pay {
+    width: 508px;
+    padding: 18px 175px 18px 194px;
+    border-radius: 3px;
+    background: #16DB99;
+    /* shadow/sm */
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+
+.summary {
+    width: 508px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #393333;
+}
+
+.summary p {
+    color: #0E0E0E;
+    font-family: Smythe;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 85.714% */
+}
+
+.hidden {
+    display: none;
+}
+
+.addedOrder {
+    width: 508px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mealSummary {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mealSummary p, .summary p {
+    color: #000;
+    text-align: right;
+    font-family: Smythe;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 120% */
+}
+
+.meal {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#remove {
+   
+    align-self: center;
+    color: #BBB;
+    font-family: Verdana;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 200% */
+    border: none;
+    background: none;
+}
+
+button {
+    cursor: pointer;
+}
+.cardContainer {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    width: 524px;
+    height: 542.24px;
+    flex-shrink: 0;
+    background: #FFF;
+    border-radius: 3.89px;
+}
+
+.cardContainer h2 {
+    margin: 46px auto;
+    text-align: center;
+    color: #000;
+    font-family: Verdana;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31.119px; /* 129.664% */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 23px;
+}
+
+form input {
+    width: 475.911px;
+    height: 71.304px;
+    flex-shrink: 0;
+    border-radius: 3.89px;
+    border: 1.297px solid #757575;
+    margin-bottom: 22px;
+    padding-left: 20px;
+}
+
+#pay {
+    width: 480px;
+}
+
+#success{
+    width: 504px;
+    height: 120px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    background: #ECFDF5;
+    margin: auto;
+}
+
+#success p{
+    color: #065F46;
+    font-family: Smythe;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 20px 15px;
+}
