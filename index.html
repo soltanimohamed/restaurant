@@ -1,0 +1,45 @@
+<html>
+    <head>
+       <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header>
+            <div class="head">
+                <h1>Jimmy's Diner</h1>
+                <p>The best burgers and pizzas in town</p>
+            </div>
+        </header>
+        <main class="mainContainer">
+        <section id="mealSection">
+        </section>
+        <section id="card">
+            <div class="cardContainer">
+                <h2>Enter card details</h2>
+                <form id="customerCredentialsForm">
+                    <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                    <input type="text" name="cardNumber" id="cardNumber" placeholder="Enter card number" required>
+                    <input type="password" name="cvv" id="cvv" placeholder="Enter CVV" required>
+                    <button id="pay" type="submit">Pay</button>
+                </form>
+            </div>
+        </section>
+        <section class="orderSummary hidden">
+            <h2 class="orderTitle">Your order</h2>
+            <div class="addedOrder">
+
+            </div>
+            <div class="summary">
+                <h2>Total price:</h2>
+                <p id="totalPrice"></p>
+            </div>
+            <button id="completeBtn" data-test="disable">Complete order</button>
+        </section>
+        <section>
+            <div id="success" class="hidden">
+                <p>Thanks, <span id="customer"></span>! Your order is on its way!</p>
+            </div>
+        </section>
+    </main>
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
